@@ -162,6 +162,7 @@ img {
 
 .hero {
   background: var(--background-color-main);
+  margin-bottom: 94px;
 }
 .hero-h1 {
   width: 696px;
@@ -189,6 +190,17 @@ img {
 }
 
 /*----Advantages----*/
+.advantages-list {
+  display: flex;
+}
+.advant-text {
+  padding-top: 10px;
+}
+
+.advant-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 
 .advant-h3 {
   font-weight: 700;

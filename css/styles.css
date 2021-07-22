@@ -53,11 +53,12 @@ img {
   margin: 0 auto;
 }
 
-.sections {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.section {
+  padding-top: 94px;
 }
-
+.section:not(.advantages) {
+  padding-bottom: 94px;
+}
 /*----Components----*/
 
 .logo-link,
@@ -67,6 +68,9 @@ img {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+}
+.logo-link {
+  color: var(--font-main-color);
 }
 .logo-link span {
   color: var(--main-color);
@@ -89,6 +93,7 @@ img {
   font-size: 36px;
   line-height: 1.167;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /*----Header Menu----*/
@@ -97,6 +102,10 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .logo-link {
   display: flex;
   margin-right: 93px;
@@ -116,11 +125,9 @@ img {
   display: flex;
   margin-left: auto;
 }
-.contact-email-header {
-  margin-right: 50px;
-}
+
 .contact-phone-header {
-  padding-right: 12px;
+  margin-left: 50px;
 }
 
 .navi-list {
@@ -147,22 +154,17 @@ img {
   color: var(--main-color);
 }
 
-.line {
-  border: 1px solid #ececec;
-}
 /*----Hero----*/
 
 .hero .container {
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 106px;
+  padding-bottom: 106px;
 }
-
 
 .hero {
   background: var(--background-color-main);
-  margin-bottom: 94px;
 }
 .hero-h1 {
   width: 696px;
@@ -173,7 +175,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   color: var(--font-dark-theme);
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .modal-btn {
@@ -184,23 +186,20 @@ img {
   cursor: pointer;
   color: var(--font-dark-theme);
   background: var(--main-color);
+  padding: 10px 42px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  padding: 10px 42px;
 }
 
 /*----Advantages----*/
+
 .advantages-list {
   display: flex;
-}
-.advant-text {
-  padding-top: 10px;
 }
 
 .advant-list-item:not(:last-child) {
   margin-right: 30px;
 }
-
 
 .advant-h3 {
   font-weight: 700;
@@ -214,31 +213,73 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--font-secondary-color);
+  padding-top: 10px;
 }
 
 /* ----About---- */
+.about-list {
+  display: flex;
+}
+
+.about-item {
+  margin-top: 50px;
+}
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* ----Team---- */
+
 .team {
   background: var(--background-color-sec);
+  margin: 0;
 }
 .name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  letter-spacing: 0.03em;
+  padding-bottom: 10px;
 }
 
-.job-title {
+.team-dscr {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
+  text-align: center;                                     /*---FIGCAPTION---*/
   color: var(--font-secondary-color);
+  padding: 30px 0;
+  border-radius: 0px 0px 4px 4px;
+  
+}
+.team .header-h2 {
+  padding-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.team figure {
+  margin: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team figure:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ----Footer---- */
 .footer {
   background: var(--background-color-main);
+  padding: 60px 0;
+}
+.address-item {
+  padding-bottom: 9px;
+}
+.address {
+  padding-top: 20px;
 }
 .address-street {
   font-size: 14px;
@@ -257,6 +298,7 @@ img {
 .contact-link-footer :focus {
   color: var(--main-color);
 }
+
 
 /* ----PORTFOLIO---- */
 

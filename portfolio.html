@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
 
   <body>
-        <header class="header">
-     
+    <header class="header">
       <div class="container">
         <a class="logo-link link" href="./index.html"><span>Web</span>Studio</a>
 
@@ -38,43 +40,49 @@
           </ul>
         </nav>
 
-
         <ul class="contact-link list">
           <li>
-            <a class="contact-link-header link contact-email-header" href="mailto:info@devstudio.com"
+            <a
+              class="contact-link-header link contact-email-header"
+              href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contact-link-header link contact-phone-header" href="tel:+48111111111"
+            <a
+              class="contact-link-header link contact-phone-header"
+              href="tel:+48111111111"
               >+48 111 111 111</a
             >
           </li>
         </ul>
       </div>
-      
-       
-      </div>
     </header>
     <main>
-      <div>
-        <!-- Buttons-filters -->
-        <section >
-          <ul class="button-flter">                     
-          <li><button class="modal-btn-filter" type="button">Wszystkie</button></li>
-          <li><button class="modal-btn-filter" type="button">Strony</button></li>
-          <li><button class="modal-btn-filter" type="button">Aplikacje</button></li>
-          <li><button class="modal-btn-filter" type="button">Dizajn</button></li>
-          <li><button class="modal-btn-filter" type="button">Marketing</button></li>
+      <!-- PORTFOLIO -->
+      <section class="portfolio section">
+        <div class="container">
+          <ul class="button-filter-list list">
+            <li>
+              <button class="modal-btn-filter button-activ" type="button">
+                Wszystkie
+              </button>
+            </li>
+            <li>
+              <button class="modal-btn-filter" type="button">Strony</button>
+            </li>
+            <li>
+              <button class="modal-btn-filter" type="button">Aplikacje</button>
+            </li>
+            <li>
+              <button class="modal-btn-filter" type="button">Dizajn</button>
+            </li>
+            <li>
+              <button class="modal-btn-filter" type="button">Marketing</button>
+            </li>
           </ul>
-        </section>
-
-        <!-- END Buttons-filters -->
-
-        <!-- PORTFOLIO -->
-        <section class="portfolio">
-          <ul>
-            <li class="portfolio-list" >
+          <ul class="portfolio-list list">
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img1.jpg"
@@ -88,7 +96,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio-list" >
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img2.jpg"
@@ -101,8 +109,8 @@
                   <p class="project-type">Dizajn</p>
                 </figcaption>
               </figure>
-            </li class="portfolio-list" >
-            <li>
+            </li>
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img3.jpg"
@@ -116,7 +124,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio-list" >
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img4.jpg"
@@ -130,7 +138,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio-list" >
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img5.jpg"
@@ -144,7 +152,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio-list" >
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img6.jpg"
@@ -158,7 +166,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio-list" >
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img7.jpg"
@@ -172,7 +180,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio-list" >
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img8.jpg"
@@ -186,7 +194,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio-list" >
+            <li class="portfolio-list-item">
               <figure>
                 <img
                   src="images/portfolio/img9.jpg"
@@ -201,32 +209,40 @@
               </figure>
             </li>
           </ul>
-        </section>
-
-        <!-- END PORTFOLIO -->
-      </div>
+        </div>
+      </section>
     </main>
 
-     <!--Footer-->
+    <!-- END PORTFOLIO -->
+
+    <!--Footer-->
 
     <footer class="footer">
+      <div class="container">
+        <a class="logo-link-dark-theme link" href="./index.html"
+          ><span>Web</span>Studio</a
+        >
 
-
-      <a class="logo-link-dark-theme" href="./index.html"><span>Web</span>Studio</a>
-
-      <address class="address">
-
-        <ul class="address-list">
-          <li class="address-street">m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li class="address-item">
-            <a class="contact-link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="address-item">
-            <a class="contact-link-footer" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-        
-      </address>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-item address-street">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </li>
+            <li class="address-item">
+              <a
+                class="contact-link-footer link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-item">
+              <a class="contact-link-footer link" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
